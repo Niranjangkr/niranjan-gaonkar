@@ -4,38 +4,38 @@ import { ExternalLink } from 'lucide-react';
 const projects = [
   {
     title: 'Startup Nalanda',
-    description: 'Educational platform with course discovery, internal search API, and OpenAI integration',
+    description: 'Educational platform with course creation, discovery, course playlists creation, internal search API, and OpenAI integration',
     tech: ['TypeScript', 'Next.js', 'React', 'Zustand', 'OpenAI', 'Supabase'],
     link: 'https://startupnalanda.com/',
-    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80'
+    image: 'https://raw.githubusercontent.com/Niranjangkr/PublicImages/refs/heads/main/startupnalanda.png'
   },
   {
     title: 'Favcy Navigator',
-    description: 'Platform featuring journey card automation and LLM integration',
+    description: 'An AI-powered platform that acts as a co-pilot for entrepreneurs, transforming business ideas into actionable strategies through data-driven insights, predictive analysis, and tailored venture-building expertise.',
     tech: ['JavaScript', 'Next.js', 'Node.js', 'MongoDB', 'athina.ai', 'AWS EC2'],
     link: 'https://app.favcynavigator.com/',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80'
+    image: 'https://raw.githubusercontent.com/Niranjangkr/PublicImages/refs/heads/main/favcyNavigatorDashboard.png'
   },
   {
     title: 'GST Manager',
-    description: 'Full-stack GST management application with payment integration',
+    description: 'Full-stack GST management application',
     tech: ['Next.js', 'Node.js', 'Express', 'PostgreSQL', 'Razorpay'],
     link: 'https://gstmanager.com/',
-    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80'
+    image: 'https://raw.githubusercontent.com/Niranjangkr/PublicImages/refs/heads/main/gstManager.png'
   },
   {
     title: 'WishFerry',
     description: 'AI-powered story generation platform for kids',
     tech: ['JavaScript', 'Next.js', 'Node.js', 'OpenAI', 'Firebase'],
     link: 'https://wishferry.vercel.app/',
-    image: 'https://images.unsplash.com/photo-1456513080510-7bf3a84b82f8?auto=format&fit=crop&q=80'
+    image: 'https://raw.githubusercontent.com/Niranjangkr/PublicImages/refs/heads/main/wishferry.png'
   },
   {
     title: 'Favcy Hive',
     description: 'Employee updates management system with timeline and analytics',
     tech: ['TypeScript', 'Supabase', 'OpenAI', 'TanStack Query'],
     link: 'https://favcyhive.vercel.app/',
-    image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&q=80'
+    image: 'https://raw.githubusercontent.com/Niranjangkr/PublicImages/refs/heads/main/favcyHive.png'
   }
 ];
 

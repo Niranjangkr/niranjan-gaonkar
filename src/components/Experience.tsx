@@ -14,7 +14,7 @@ const experiences = [
   },
   {
     title: 'Freelance Software Developer',
-    company: 'CubicTech',
+    company: 'cubikTech',
     period: 'Contract Basis',
     description: [
       'Delivered full-stack web application: GST Manager',
