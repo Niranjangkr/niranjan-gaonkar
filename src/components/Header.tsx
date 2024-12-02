@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, Github, Linkedin, Twitter, X } from 'lucide-react';
+import { Menu, Github, Linkedin, Twitter, Link2, Mail } from 'lucide-react';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -51,6 +51,7 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+              title="GitHub"
             >
               <Github className="w-5 h-5" />
             </a>
@@ -59,6 +60,7 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+              title="LinkedIn"
             >
               <Linkedin className="w-5 h-5" />
             </a>
@@ -67,8 +69,25 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+              title="Twitter"
             >
               <Twitter className="w-5 h-5" />
+            </a>
+            <a
+              href="https://linktr.ee/niranjan_gaonkar"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+              title="Linktree"
+            >
+              <Link2 className="w-5 h-5" />
+            </a>
+            <a
+              href="mailto:niranjangaonkar.09@gmail.com"
+              className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors"
+              title="Email"
+            >
+              <Mail className="w-5 h-5" />
             </a>
           </div>
 
@@ -102,6 +121,7 @@ const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400"
+                  title="GitHub"
                 >
                   <Github className="w-5 h-5" />
                 </a>
@@ -110,6 +130,7 @@ const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400"
+                  title="LinkedIn"
                 >
                   <Linkedin className="w-5 h-5" />
                 </a>
@@ -118,8 +139,25 @@ const Header = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400"
+                  title="Twitter"
                 >
                   <Twitter className="w-5 h-5" />
+                </a>
+                <a
+                  href="https://linktr.ee/niranjan_gaonkar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400"
+                  title="Linktree"
+                >
+                  <Link2 className="w-5 h-5" />
+                </a>
+                <a
+                  href="mailto:niranjangaonkar.09@gmail.com"
+                  className="text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400"
+                  title="Email"
+                >
+                  <Mail className="w-5 h-5" />
                 </a>
               </div>
             </div>
